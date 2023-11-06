@@ -18,7 +18,7 @@ TRUNCATE: This is used to remove all records from a table, including all spaces 
 RENAME: This is used to rename an object existing in the database.
 
 ## Query :
-Create a table student with the following fieds rollno,name,age,address,phoneno.
+1)Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ## SQL QUERY :
 create table student(rollno numeric(10),name char(10),age numeric(5),address varchar(25),phoneno numeric(15));
@@ -28,7 +28,7 @@ create table student(rollno numeric(10),name char(10),age numeric(5),address var
 
 
 ## Query :
-Change the above student table by adding another attribute department.
+2)Change the above student table by adding another attribute department.
 
 ## SQL QUERY :
 alter table student add department varchar(15);
@@ -38,7 +38,7 @@ alter table student add department varchar(15);
 
 
 ## QUERY :
-Drop the student table.
+3)Drop the student table.
 
 ## SQL QUERY :
 drop table student;
@@ -48,7 +48,7 @@ drop table student;
 
 
 ## QUERY :
-Delete the student table using truncate keyword.
+4)Delete the student table using truncate keyword.
 
 ## SQL QUERY :
 truncate table student;
@@ -58,7 +58,7 @@ truncate table student;
 
 
 ## QUERY ::
-Rename the student table to mystudent.
+5)Rename the student table to mystudent.
 
 ## SQL QUERY :
 rename table student to mystudent;
